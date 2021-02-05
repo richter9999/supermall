@@ -1,5 +1,19 @@
-/* 基础样式 */
-body {
-    padding: 0;
-    margin: 0;
+@import "normalize.css";
+/* :root 获取 根元素  -- 定义CSS 变量  */
+:root {
+    --color-text: #666;
+    --color-high-text: #ff5777;
+    --color-tint: #ff8198;
+    --color-background: #fff;
+    --font-size: 14px;
+    --line-height: 1.5;
 }
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
